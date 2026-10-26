@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Meier — Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">Alex Meier</div>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hi, I'm Alex</h1>
+    <p>Welcome to my portfolio. I'm learning HTML, CSS and JavaScript, and building projects step by step.</p>
+    <a href="#projects" class="btn">View My Projects</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="avatar">AM</div>
+      <p>
+        I'm a student learning web development from the ground up — starting with HTML and CSS,
+        and now exploring Flexbox and JavaScript. I enjoy solving visual problems and turning a
+        design into working code, one step at a time.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <i class="fa-solid fa-table-cells"></i>
+        <span>Flexbox</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-js"></i>
+        <span>JavaScript (learning)</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-git-alt"></i>
+        <span>Git</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-python"></i>
+        <span>Python</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Four of Hearts — Playing Card</h3>
+        <p>A CSS positioning exercise: building a playing card layout using relative and absolute positioning.</p>
+      </div>
+      <div class="project-card">
+        <h3>HiCoders Registration Form</h3>
+        <p>A styled sign-up form built with labels, inputs and inline-block alignment.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Gallery</h3>
+        <p>A responsive card gallery built with Flexbox — wrapping, gaps and centered content.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Alex Meier. Built while learning HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+</body>
+</html>
